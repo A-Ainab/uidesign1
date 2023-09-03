@@ -16,7 +16,7 @@ class _MyRegisterState extends State<MyRegister> {
             image: AssetImage('assets/signup.png'), fit: BoxFit.cover),
       ),
       child: Scaffold(
-        backgroundColor: Colors.transparent,
+        backgroundColor: Colors.blue,
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0,

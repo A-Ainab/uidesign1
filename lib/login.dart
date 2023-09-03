@@ -13,17 +13,17 @@ class _MyLoginState extends State<MyLogin> {
     return Container(
       decoration: BoxDecoration(
         image: DecorationImage(
-            image: AssetImage('assets/mylogin.png'), fit: BoxFit.cover),
+            image: AssetImage('assets/hh.jng'), fit: BoxFit.cover),
       ),
       child: Scaffold(
-        backgroundColor: Colors.transparent,
+        backgroundColor: Colors.blue,
         body: Stack(
           children: [
             Container(),
             Container(
               padding: EdgeInsets.only(left: 35, top: 130),
               child: Text(
-                'Welcome\nBack',
+                'Hi Iam Ainab',
                 style: TextStyle(color: Colors.white, fontSize: 33),
               ),
             ),
